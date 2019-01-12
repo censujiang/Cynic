@@ -1,0 +1,51 @@
+ <widget id="A6092742705082"  version="0.0.1">
+    <name>江程训</name>
+    <description>
+        Example For APICloud.
+    </description>
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+        Developer
+    </author>
+    <content src="https://dfjcx.cn" />
+    <access origin="*" />
+    <preference name="pageBounce" value="false"/>
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+	<preference name="hScrollBarEnabled" value="false"/>
+	<preference name="vScrollBarEnabled" value="false"/>
+	<preference name="autoLaunch" value="true"/>
+	<preference name="fullScreen" value="false"/>
+	<preference name="autoUpdate" value="true" />
+	<preference name="smartUpdate" value="ture" />  <preference name="checkSslTrusted" value="false" />
+	<preference name="debug" value="true"/>
+	<preference name="statusBarAppearance" value="true"/>
+	<permission name="readPhoneState" />
+	<permission name="camera" />
+	<permission name="record" />
+	<permission name="location" />
+	<permission name="fileSystem" />
+	<permission name="internet" />
+	<permission name="bootCompleted" />
+	<permission name="hardware" />  <feature name="weiboPlus">
+    <param name="urlScheme" value="wb1452204673" />
+    <param name="apiKey" value="1452204673" />
+    <param name="registUrl" value="https://dfjcx.cn" />
+  </feature>
+
+  <feature name="QQPlus">
+    <param name="urlScheme" value="tencent1107721085" />
+    <param name="apiKey" value="1107721085" />
+  </feature>
+
+  <feature name="wx">
+    <param name="urlScheme" value="待添加1"/>
+    <param name="apiKey" value="待添加1"/>
+    <param name="apiSecret" value="待添加2"/>
+  </feature>
+
+  <feature name="ajpush">
+    <param name="app_key" value="eaf05b06846658796f729fe8" />
+    <param name="channel" value="AppStore" />
+  </feature>
+</widget>
